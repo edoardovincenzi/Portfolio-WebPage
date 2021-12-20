@@ -1,6 +1,3 @@
 # Portfolio-WebPage
 
-I decided to update my web page for having a better look, nothing else! 
-
-I used mdbootstrap just for try and fun it. 
-
+I decided to update my webpage to make it graphically better and to give mdbootstrap a try
