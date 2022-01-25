@@ -1,103 +1,109 @@
-main{
-    background-color:  #f5f5f5 ;
-    letter-spacing: 1px;
+main {
+  background-color: #f5f5f5;
+  letter-spacing: 1px;
 }
 
-header a:hover{
-    color: #FFA900 !important;
+header a:hover {
+  color: #ffa900 !important;
 }
 
-.maxContent{
-    width: max-content;
+.maxContent {
+  width: max-content;
 }
 
-.nav-item > a{
-    font-size: 1.3rem;
+.nav-item > a {
+  font-size: 1.3rem;
 }
 
-.homeSection{
-    width: 50%;
-    height: 90vh;
+.homeSection {
+  width: 50%;
+  height: 90vh;
 }
 
-.homeSection > img{
-    width: 60%;
+.homeSection > img {
+  width: 60%;
 }
 
-.Jumbotron > h1{
-    font-size: 3.5rem;
+.Jumbotron > h1 {
+  font-size: 3.5rem;
 }
 
-.card-title{
-    font-weight: bold;
+.card-title {
+  font-weight: bold;
 }
 
-.imgCard{
-    height: 100%;
+.imgCard {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardSize {
+  width: 30vw;
+  min-width: 300px !important;
+  margin-top: 2rem;
+}
+
+.cardSize-img {
+  height: 30vh;
+}
+
+.aboutMeIMG {
+  width: 20vw;
+}
+
+.subTitleAboutMe {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#aboutMeText {
+  margin-left: 2rem;
+}
+
+@media (min-width: 1000px) {
+  main {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #Home {
+    height: 100vh;
+  }
+
+  .homeSection {
     width: 100%;
-    object-fit: contain;
-}
+    height: 45vh;
+  }
 
-.cardSize{
-    width: 30vw;
-    min-width: 300px !important;
-    margin-top: 2rem;
-}
+  #homeSection1 {
+    order: 2;
+    align-items: flex-start !important;
+  }
 
-.cardSize-img{
-    height: 30vh;
-}
+  #homeSection2 {
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
 
-.aboutMeIMG{
-    width: 20vw;
-}
+  .cardSize {
+    width: 85vw;
+    margin-bottom: 2rem;
+  }
 
-.subTitleAboutMe{
+  .aboutMeIMG {
+    width: 75vw;
+  }
+
+  .skills {
+    width: 25% !important;
+  }
+
+  #aboutMeText {
+    width: 75% !important;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 0;
+  }
 }
-
-#aboutMeText{
-    margin-left: 2rem;
-}
-
-
-@media (max-width: 576px) { 
-    #Home{
-        height: 100vh;
-    }
-
-    .homeSection{
-        width: 100%;
-        height: 45vh;
-    }
-
-    #homeSection1{
-        order: 2;
-        align-items: flex-start !important;
-    }
-
-    #homeSection2{
-        justify-content: center !important;
-        align-items: flex-end !important;
-    }
-
-    .cardSize{
-        width: 85vw;
-        margin-bottom: 2rem;
-    }
-
-    .aboutMeIMG{
-        width: 75vw;
-    }
-    
-    .skills {
-        width: 25% !important;
-    }
-
-    #aboutMeText{
-        width: 75% !important;
-        margin-top: 3rem;
-        margin-left: 0;
-    }
- }
